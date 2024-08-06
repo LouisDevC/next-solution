@@ -1,0 +1,59 @@
+:root{
+    --rich: #02111B;
+    --Sgreen: #496F5D;
+    --Cred: #721817;
+    --Uran: #B1DDF1;
+    --Cblue: #276FBF;
+}
+@media only screen and (max-width: 768px) {
+    .menu-bar{
+        padding: 30px 0;
+    }
+    .intro-service{
+        margin: 0 20px;
+    }
+    .geral-list li{
+        font-size: .9rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .menu-bar{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .menu-bar a{
+        display: none;
+        background-color: #496F5D;
+        width: 100vw;
+        height: 100vh;
+        padding: 10px 50px;
+    }
+    .menu-bar a:hover{
+        color: white;
+    }
+    .menu-bar .menu{
+        display: block;
+        color: white;
+        padding: 0 100%;
+        width: 100%;
+    }
+    .call-text{
+        padding: 50px 10px;
+    }
+    .call-text p{
+        width: 100%;
+        margin: auto;
+        font-size: 1rem;
+        margin-bottom: 50px;
+        line-height: 20px;
+        text-align: justify;
+    }
+    footer{
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+}
